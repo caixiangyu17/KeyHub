@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_dialog_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bgGrayTran" />
+
+    <LinearLayout
+        android:id="@+id/ll_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/bgLight"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/textColorLight"
+            android:textSize="@dimen/dialog_title_size" />
+
+
+        <View
+            style="@style/VerticalMargin"
+            android:layout_weight="0.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.5"
+            android:orientation="horizontal">
+
+            <View
+                style="@style/HorizontalMargin"
+                android:layout_weight="0.1" />
+
+            <TextView
+                android:id="@+id/tv_dialogText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_test_text"
+                android:textSize="@dimen/dialog_text_size" />
+
+            <View
+                style="@style/HorizontalMargin"
+                android:layout_weight="0.1" />
+        </LinearLayout>
+
+        <View
+            style="@style/VerticalMargin"
+            android:layout_weight="0.2" />
+
+        <LinearLayout
+            android:id="@+id/ll_buttonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+
+        <View
+            style="@style/VerticalMargin"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+
+</RelativeLayout>
