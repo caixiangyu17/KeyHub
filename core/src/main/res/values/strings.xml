@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Core</string>
-    <string name="dialog_test_text">This is a dialog.You could use this widget to show information
-        and some buttons. If you want to customise the view, you could change the layout xml file by
-        your self</string>
-    <string name="btn_yes">YES</string>
-    <string name="btn_no">NO</string>
-</resources>
