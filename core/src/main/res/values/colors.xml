@@ -8,4 +8,5 @@
 
     <color name="bgGrayTran">#77000000</color>
     <color name="bgLight">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>

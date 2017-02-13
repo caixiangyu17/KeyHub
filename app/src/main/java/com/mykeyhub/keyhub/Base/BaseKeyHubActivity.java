@@ -1,11 +1,11 @@
 package com.mykeyhub.keyhub.Base;
 
-import com.bladesort.core.common.BaseActivity;
+import android.app.Activity;
 
 /**
  * Created by leocx on 2016/11/28.
  */
 
-public class BaseKeyHubActivity extends BaseActivity {
+public class BaseKeyHubActivity extends Activity {
 
 }

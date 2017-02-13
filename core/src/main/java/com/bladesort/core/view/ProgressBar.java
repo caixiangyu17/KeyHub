@@ -3,6 +3,8 @@ package com.bladesort.core.view;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.TypedValue;
@@ -43,6 +45,7 @@ public class ProgressBar extends BaseView {
         super(context, attrs, defStyleAttr);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public ProgressBar(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
@@ -64,7 +67,7 @@ public class ProgressBar extends BaseView {
             filledPaint.setColor(filledColor);
         }
         if (unfilledColor == 0xDEADBEEF) {
-            unfilledPaint.setColor(ColorManager.getColor(R.color.colorPrimaryLight));
+            unfilledPaint.setColor(ColorManager.getColor(R.color.colorAccent));
         } else {
             unfilledPaint.setColor(unfilledColor);
         }
