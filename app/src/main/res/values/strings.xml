@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KeyHub</string>
+    <string name="dropIn">Drop In</string>
+    <string name="pickUp">Pick Up</string>
+    <string name="phoneNum">Phone Number</string>
+    <string name="pin">Pin</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
 </resources>
