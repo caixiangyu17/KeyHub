@@ -11,6 +11,7 @@
         android:hint="@string/phoneNum"
         android:layout_width="500dp"
         android:imeOptions="actionNext"
+        android:inputType="phone"
         android:layout_height="wrap_content" />
 
     <EditText
@@ -18,6 +19,7 @@
         android:hint="@string/pin"
         android:layout_width="500dp"
         android:imeOptions="actionDone"
+        android:inputType="phone"
         android:layout_height="wrap_content" />
     <LinearLayout
         android:orientation="horizontal"
@@ -25,10 +27,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/buttonLoginActivityCancel"
             android:text="@string/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <Button
+            android:id="@+id/buttonLoginActivitySubmit"
             android:text="@string/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

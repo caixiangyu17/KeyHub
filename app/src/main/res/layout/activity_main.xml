@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:id="@+id/activity_main"
-    android:paddingTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
     android:paddingBottom="100dp"
     android:paddingLeft="100dp"
     android:paddingRight="100dp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:paddingTop="100dp">
 
     <Button
-        android:text="@string/dropIn"
+        android:id="@+id/buttonMainActivityDropIn"
+        android:textSize="50sp"
         android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="50dp"
         android:layout_weight="1"
-        android:layout_height="match_parent" />
+        android:text="@string/dropIn" />
+
     <Button
-        android:text="@string/pickUp"
+        android:id="@+id/buttonMainActivityPickUp"
+        android:textSize="50sp"
         android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="50dp"
         android:layout_weight="1"
-        android:layout_height="match_parent" />
+        android:text="@string/pickUp" />
 
 </LinearLayout>
